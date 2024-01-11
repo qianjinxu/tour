@@ -13,6 +13,7 @@ func printSlice(s []int) {
 }
 
 // 示例说明：每次只取消一组注释，来观察 Slice length 和 Slice capacity 的变化
+// 计算公式：Slice length = highBound - lowBound, Slice capacity = Array element - highBound
 func main() {
 	s := []int{1, 2, 3, 4, 5}
 
@@ -33,6 +34,6 @@ func main() {
 	// printSlice(s)
 
 	// Slice length 是 1, Slice capacity 是 2
-	// s = s[3:4]
-	// printSlice(s)
+	s = s[3:4]
+	printSlice(s)
 }
