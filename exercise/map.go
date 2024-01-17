@@ -4,6 +4,7 @@
  * Bio: https://jin.bio
  */
 
+// 任务说明：https://go.dev/tour/moretypes/23
 package main
 
 import (
