@@ -4,6 +4,7 @@
  * Bio: https://jin.bio
  */
 
+// 任务说明：https://go.dev/tour/methods/22
 package main
 
 import (
